@@ -21,6 +21,18 @@ const app = {
     settings: JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
     songs: [
         {
+            name: 'Tệ Thật , Anh Nhớ Em Rồi',
+            singer: '........',
+            img : './IMG//hinh11.png',
+            audio: './AUDIO/audio10.mp3'
+        } ,
+        {
+            name: 'Tháng Mấy Em Nhớ Anh :z?',
+            singer: '........',
+            img : './IMG//hinh12.png',
+            audio: './AUDIO/audio11.mp3'
+        } ,
+        {
             name: 'Bao Nhiêu Tiền Một Mớ Bình Yên',
             singer: '14Casper & Bon',
             img : './IMG//hinh3.png',
